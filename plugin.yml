@@ -1,0 +1,29 @@
+name: UltraFlight 
+
+version: 1.0.1
+
+main: DRAGONPMMP\UltraFlight\UltraFlight
+
+api: 4.0.0
+
+author: DRAGONPMMP 
+
+commands:
+
+  flight:
+
+    usage: /flight
+
+    aliases: [fly]
+
+    description: Activate Flight
+
+    permission: BetterFlight.cmd
+
+permissions:
+
+  BetterFlight.cmd:
+
+    description: Permission to use flight command
+
+    default: op
